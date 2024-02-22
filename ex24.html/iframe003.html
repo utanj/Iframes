@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum autem architecto provident quasi repudiandae illum quam consequatur beatae? Exercitationem iure sint aperiam quidem modi rem officia, animi accusamus commodi adipisci. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor illum, hic, officia provident est quam autem quibusdam, reiciendis error numquam magni in ea tempora quae libero molestias explicabo nam aspernatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus vel, itaque voluptatibus totam cupiditate ipsam dignissimos ut aliquid nulla neque doloribus consequuntur harum impedit dolorum officia obcaecati enim ex perspiciatis?</p>
+    <ul>
+        <li>
+            <a href="páginas-extras/pag001.html" target="frame">Primeira página</a>
+        </li>
+        <li>
+            <a href="páginas-extras/pag002.html" target="frame">Segunda página</a>
+        </li>
+        <li>
+            <a href="páginas-extras/pag003.html" target="frame">Tarceira página</a>
+        </li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ab! Cum veritatis aliquid unde qui dolor facilis doloremque eum atque animi doloribus delectus fugit et voluptatem nam odit, quidem facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet praesentium vero obcaecati nemo natus quibusdam quae doloremque deleniti modi officia voluptas, impedit earum odio eligendi magnam eum quos. Iure, illo?</p>
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ab! Cum veritatis aliquid unde qui dolor facilis doloremque eum atque animi doloribus delectus fugit et voluptatem nam odit, quidem facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet praesentium vero obcaecati nemo natus quibusdam quae doloremque deleniti modi officia voluptas, impedit earum odio eligendi magnam eum quos. Iure, illo?</p>">
+        <p>Infelizmente o seu nevagdor não é compatível com isso.</p>
+    </iframe>
+
+</body>
+</html>
